@@ -17,8 +17,12 @@ const determineCity = (region) => {
   return data[region][dieRoll][evenOrOdd]
 };
 
-const determinePayout = (currentCity) => {
-  const destinationRegion = determineRegion();
-  const destinationCity = determineCity(destinationRegion);
+const determinePayout = (currentCity, destinationCity) => {
   return payoutData[currentCity][destinationCity]
+}
+
+module.exports = {
+  determineRegion,
+  determineCity,
+  determinePayout
 }
