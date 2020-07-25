@@ -1,4 +1,5 @@
 const data = require('./rollData');
+const payoutData = require('./Payout.json');
 
 const rollDie = () => Math.floor( Math.random() * 6 ) + 1;
 
@@ -15,3 +16,9 @@ const determineCity = (region) => {
   const dieRoll = rollDie() + rollDie();
   return data[region][dieRoll][evenOrOdd]
 };
+
+const determinePayout = (currentCity) => {
+  const destinationRegion = determineRegion();
+  const destinationCity = determineCity(destinationRegion);
+  return payoutData[currentCity][destinationCity]
+}
