@@ -86,17 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./client/src/index.jsx":
-/*!******************************!*\
-  !*** ./client/src/index.jsx ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: Unexpected token (6:17)\\n\\n\\u001b[0m \\u001b[90m 4 | \\u001b[39m\\n \\u001b[90m 5 | \\u001b[39m\\n\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 6 | \\u001b[39m\\u001b[33mReactDOM\\u001b[39m\\u001b[33m.\\u001b[39mrender( \\u001b[33m<\\u001b[39m\\u001b[33mApp\\u001b[39m \\u001b[33m/\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[33m,\\u001b[39m document\\u001b[33m.\\u001b[39mgetElementById(\\u001b[32m'app'\\u001b[39m)) \\n \\u001b[90m   | \\u001b[39m                 \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jbGllbnQvc3JjL2luZGV4LmpzeC5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./client/src/index.jsx\n");
-
-/***/ }),
-
 /***/ "./node_modules/babel-polyfill/lib/index.js":
 /*!**************************************************!*\
   !*** ./node_modules/babel-polyfill/lib/index.js ***!
@@ -3850,14 +3839,14 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ }),
 
 /***/ 0:
-/*!***************************************************!*\
-  !*** multi babel-polyfill ./client/src/index.jsx ***!
-  \***************************************************/
+/*!***********************************************!*\
+  !*** multi babel-polyfill ./client/index.jsx ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! babel-polyfill */"./node_modules/babel-polyfill/lib/index.js");
-module.exports = __webpack_require__(/*! /Users/glyerm/Desktop/Personal Code/RailBaronGUI/client/src/index.jsx */"./client/src/index.jsx");
+!(function webpackMissingModule() { var e = new Error("Cannot find module '/Users/glyerm/Desktop/Personal Code/RailBaronGUI/client/index.jsx'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 /***/ })
