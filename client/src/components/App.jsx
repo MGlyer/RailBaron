@@ -1,23 +1,17 @@
 import React from "react"
 
 class App extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            currentInput: '',
-            toDos: []
-        }
+    state = {
+      gameStarted: false,
+      gameHash: '',
+      players: [],
+      playerData: {}
     }
 
     render() {
         return (
             <div>
-                Basic CRUD To Do
-                <br/>
-                To Do: <input type="text" value = {this.state.currentInput}></input>
-                <br/>
-                <br/>
-                Current To Dos:
+              <p>on the page. congrats</p>
             </div>
         )
     }
